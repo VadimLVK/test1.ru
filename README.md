@@ -7,7 +7,7 @@ Cоздаём новую бд http://localhost/denwer/Tools/addmuser/index.php
 И импортируем в неё po61b.sql
 Далее открываем \test1.ru\www\engine\data\dbconfig.php
 и в файле меняем: 
-меняешь ("DBNAME", "имя бд");
+ ("DBNAME", "имя бд");
 
 define ("DBUSER", "имя пользователя");
 
